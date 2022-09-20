@@ -12,6 +12,14 @@ a {
     margin: 10px;
 }
 
+ul li:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+ul li:nth-child(odd) .bold, ul li:nth-child(odd) .italic {
+    background-color: aliceblue;
+}
+
 #authorsname {
     font-family: 'Courier New', Courier, monospace;
 }
